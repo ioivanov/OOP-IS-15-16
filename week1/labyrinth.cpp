@@ -1,7 +1,3 @@
-﻿// labyrinth.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -163,7 +159,6 @@ void findAllPathsToTreasure(int startx, int starty)
 
 int main() 
 {
-	cout << "dali е език или не";
 	readLabyrinth();
 	//printLabyrinth();
 	int startx, starty;
@@ -186,5 +181,3 @@ _#_###
 _#___#
 ___#_$
 */
-
-
